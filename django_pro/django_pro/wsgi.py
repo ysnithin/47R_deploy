@@ -1,5 +1,5 @@
 """
-WSGI config for dep_pro project.
+WSGI config for django_pro project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dep_pro.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_pro.settings')
 
 application = get_wsgi_application()
